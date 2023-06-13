@@ -1,0 +1,3 @@
+0 Face
+1 Face with hand
+2 Hand
