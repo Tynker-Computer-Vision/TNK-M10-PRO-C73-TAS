@@ -7,7 +7,7 @@ from keras.models import load_model
 model = load_model("keras_Model.h5", compile=False)
 
 # Load the labels
-class_names = open("labels.txt", "r").readlines()
+classNames = open("labels.txt", "r").readlines()
 
 camera = cv2.VideoCapture(0)
 
@@ -33,8 +33,8 @@ while True:
     print(image)
     cv2.waitKey(0)
 
-    keyboard_input = cv2.waitKey(1)
-    if keyboard_input == 27:
+    keyboardInput = cv2.waitKey(1)
+    if keyboardInput == 27:
         break
 
 camera.release()
