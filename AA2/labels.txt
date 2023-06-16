@@ -1,0 +1,5 @@
+0 One Finger
+1 Two Fingers
+2 Three Fingers
+3 Four Fingers
+4 Five Fingers
